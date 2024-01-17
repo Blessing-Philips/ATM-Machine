@@ -1,0 +1,45 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Noto+Serif:wght@300;600&display=swap');
+
+body{
+    font-size: 62.5%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: dodgerblue;
+    width: 80%;
+    height: 50vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10rem;
+    margin-bottom: auto;
+    box-shadow: 10px 10px rgba(21, 18, 182, 0.2);
+    border: 2px solid blue;
+}
+
+@media screen and (min-width: 1280px){
+    .container {
+        width: 40%;
+    }
+}
+
+h2 {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 5rem;
+    font-size: 2rem;
+}
+
+button {
+    padding: 1rem 3rem;
+    border-radius: 1rem;
+    background-color: #fff;
+    border: 2px solid blue;
+    font-family: 'Noto Serif', serif;
+    font-size: 1.2rem;
+    color: blue;
+}
